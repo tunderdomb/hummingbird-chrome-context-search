@@ -142,6 +142,5 @@ var util = (function ( util, chrome ){
     })
   }
 
-
   return util
 }({}, window.chrome))
