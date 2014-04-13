@@ -1,0 +1,20 @@
+{
+  "name": "hummingbird",
+  "version": "0.0.0",
+  "description": "",
+  "main": "humm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-embrace": "0.0.10",
+    "grunt-contrib-less": "~0.11.0",
+    "boomer": "~1.1.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}

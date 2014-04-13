@@ -1,0 +1,1 @@
+(function(){dust.register("user",body_0);function body_0(chk,ctx){return chk.write("<section role=\"user\"><h2 role=\"user:name\"></h2><button role=\"user:logout\">Log out</button></section>");}return body_0;})();

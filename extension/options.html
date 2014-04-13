@@ -1,0 +1,75 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hummingbird Chrome extension options</title>
+  <style type="text/css">
+    body {
+      background: #eee;
+      text-align: center;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      position: relative;
+      box-sizing: border-box;
+    }
+    h1, h2{
+      font-variant: small-caps;
+      margin: 0 0 10px;
+      padding: 5px 10px;
+      color: #fd864b;
+    }
+    input, button{
+      display: block;
+      width: 100%;
+      padding: 20px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.5s ease-in-out;
+    }
+    input{
+      background: #eee;
+      border-bottom: 1px solid #fd864b;
+    }
+    input:focus{
+      background: white;
+    }
+    button {
+      background: #fd864b;
+      color: white;
+    }
+    button:focus,
+    button:hover {
+      background: #FD994B;
+    }
+    button:active{
+      background: #fd6622;
+    }
+    .error {
+      background: palevioletred;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .error:empty {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Options</h1>
+
+<section role="setting:user">
+
+</section>
+
+
+<script type="text/javascript" src="js/humm.js"></script>
+<script type="text/javascript" src="js/options.js"></script>
+</body>
+</html>

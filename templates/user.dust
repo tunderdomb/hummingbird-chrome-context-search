@@ -1,0 +1,4 @@
+<section role="user">
+  <h2 role="user:name"></h2>
+  <button role="user:logout">Log out</button>
+</section>
